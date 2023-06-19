@@ -1,0 +1,340 @@
+header{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  background-color: #dd0d8d;
+height: 70px;
+ 
+}
+li{
+ font-size: 15px;
+  list-style-type:none;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+}
+.barra a{
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: tahoma;
+}
+.logo img{
+  padding: 15px;
+  height: 70px;
+}
+.Sair{
+  
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  right: 15%;
+  top:  55%;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: tahoma;
+}
+.caixa{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 50%;
+  right: 1%;
+padding-left: 10px;
+padding-right: 20px;
+padding-bottom: 6px;
+padding-top: 5px;
+ background-color: #4668b4;
+ border-radius: 8px;
+ width: 200px;
+
+
+}
+body{
+  background-color: #59129c;
+}
+.box1{
+  position: absolute;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 500px;
+padding: 50px;
+border-radius: 8px;
+height: 60vh;
+}
+.box1 img{
+  float: left;
+  width: 80%;
+  padding: 2px;
+  position: absolute;
+  top: 0;
+  height: 50%;
+  margin: 20px 0px 0px 1px;
+  border-radius: 8px;
+  border:solid slategrey;
+}
+.box1 li{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  position: absolute;
+  top: 57%;
+  width: 82%;
+}
+.box1 a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #a4d3ee;
+  width: 90%;
+  border-radius: 10px;
+  border:solid 2px rgb(255, 255, 255);
+  
+
+}
+.box1 a:hover{
+  box-shadow: 2px 2px 2px 2px #a4d3ee;
+
+}
+.box{
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 42.5%;
+padding: 40px;
+border-radius: 8px 80px 8px 8px;
+height: 32vh;
+}
+.box h1{
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  font-family:tahoma ;
+}
+.recados li{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px;
+  left: 3%;
+  top: 20%;
+}
+.recados a{
+  text-decoration: none;
+  color: black;
+  font-family: tahoma;
+  font-size: 20px;
+}
+.fotos li{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px;
+  left: 20%;
+  top: 20%;
+}
+.fotos a{
+  text-decoration: none;
+  color: black;
+  font-family: tahoma;
+  font-size: 20px;
+}
+.fãs a{
+  text-decoration: none;
+  color: black;
+  font-family: tahoma;
+  font-size: 20px;
+}
+.fãs li{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px;
+  left: 36%;
+  top: 20%;
+}
+.msg li{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px;
+  left: 49%;
+  top: 20%;
+}
+.msg a{
+  text-decoration: none;
+  color: black;
+  font-family: tahoma;
+  font-size: 20px;  
+}
+.texto{
+  position: absolute;
+  top: 40%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  left: 3%;
+}
+.box3{
+  position: absolute;
+  top: 0%;
+ width: 600px;
+ height:350px ;
+ background-color: white;
+ left: 101.5%;
+ border-radius: 8px;
+}
+
+.jamily img{
+  width: 170px;
+  height: 170px;
+  border-radius: 12px;
+  top: 10%;
+  position: absolute;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  border:solid slategrey;
+}
+.txt1 a{
+
+  text-decoration: none;
+  color: #dc143c;
+  font-family: tahoma;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 12%;
+}
+.box3 h1{
+  position: absolute;
+  top:-5%;
+}
+.luca img{
+  width: 170px;
+  height: 170px;
+  border-radius: 12px;
+  top: 10%;
+  position: absolute;
+  right: 33%;
+  margin: 16px;
+  border:solid slategrey;
+}
+.txt2 a{
+  text-decoration: none;
+  color: hot rgb(255, 0, 128);
+  font-family: tahoma;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left:45%;
+
+}
+.mtz img{
+  width: 170px;
+  height: 170px;
+  border-radius: 12px;
+  top: 10%;
+  position: absolute;
+  right: 0%;
+  margin: 16px;
+  border:solid slategrey;
+}
+
+.txt3 a{
+  text-decoration: none;
+  color: purple;
+  font-family: tahoma;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  right:12%;
+}
+.link li{
+  position: absolute;
+  top: 85%;
+  font-size:25px ;
+  left: 5%;
+}
+.linha{
+  position: absolute;
+  top:80% ;
+  width: 100%;
+  height: 2px;
+  background-color: slategray;
+}
+.linha2{
+  position: absolute;
+  top:12% ;
+  width: 100%;
+  height: 2px;
+  background-color: slategray;
+}
+.box2{
+  position: absolute;
+  left: 20%;
+  top: 52%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 42.5%;
+padding: 40px;
+border-radius: 8px 8px 8px 8px;
+height: 33vh;
+}
+.box2 h1{
+  position: absolute;
+  top: -2%;
+  left: 3.5%;
+}
+.pics img{
+  border-radius: 8px;
+  width: 250px;
+  height: 250px;
+display: flex;
+justify-content: space-around;
+margin: 10px;
+border:solid slategrey;
+}
+.box4{
+  position: absolute;
+  background-color: white;
+  width: 600px;
+  height: 480px;
+  top: 48%;
+  right: 0.5%;
+  border-radius: 8px;
+}
+.box4 h1{
+  padding: 5px;
+}
+.cmd img{
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  height: 170px;
+  border-radius: 10px;
+  margin: 12px;
+  border:solid slategrey;
+}
+.lgd a{
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+  padding: 24px;
+}
